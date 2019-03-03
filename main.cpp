@@ -94,7 +94,6 @@ void drawCells(sf::RenderWindow &window, sf::Color color)
 int getNbNeighbours(int x, int y) {
     int neighbours = 0;
     for(int mod_x = -1; mod_x < 2; mod_x++) {
-        cout << mod_x << endl;
         for(int mod_y = -1; mod_y < 2; mod_y++) {
             if(mod_x == 0 && mod_y == 0) {
                 continue;
